@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Indian Crypto Geek's Voting DApp</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link rel="icon" type="image/png" href="icon.png">
+  <!--Copyright Notice
+This Project Is Created And Mainted By Indian Crypto Geeks Team
+Authors:
+a) Shreshtha Das
+b) Soumwadeep Guha-->
+<style>
+  body
+  {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+</style>
+</head>
+<body class="container">
+  <center><h1><b>Welcome To Indian Crypto Geek's Voting Decentralized Application!</b></h1></center><br>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Shreshtha</td>
+          <td id="candidate-1"></td>
+        </tr>
+        <tr>
+          <td>Soumwadeep</td>
+          <td id="candidate-2"></td>
+        </tr>
+        <tr>
+          <td>Ankit</td>
+          <td id="candidate-3"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="text" id="candidate" />
+  <a href="#" onclick="voteForCandidate()" class="btn btn-primary">Vote</a>
+</body>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./index.js"></script>
+</html>

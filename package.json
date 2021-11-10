@@ -1,0 +1,12 @@
+{
+  "name": "Indian Crypto Geek's Voting DApp",
+  "version": "1.0.2",
+  "description": "Indian Crypto Geek's Simple Voting Dapp",
+  "author": "Soumwadeep Guha,Shreshtha Das",
+  "repository": "https://github.com/soumwadeep/Indian-Crypto-Geeks",
+  "devDependencies": {
+    "ethereumjs-testrpc": "^4.1.3",
+    "solc": "^0.4.17",
+    "web3": "^0.20.1"
+  }
+}
